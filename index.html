@@ -1,1 +1,110 @@
-hello
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+    <div class="allCards">
+        <div class="row1">
+            <div id="_1" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_2" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_3" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_4" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_5" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_6" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_7" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_8" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_9" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_10" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_11" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_12" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_13" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+        </div>
+        <div class="row2">
+            <div id="_14" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_15" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_16" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_17" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_18" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_19" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_20" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_21" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_22" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_23" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_24" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_25" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_26" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+        </div>
+        <div class="row3">
+            <div id="_27" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_28" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_29" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_30" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_31" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_32" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_33" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_34" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_35" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_36" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_37" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_38" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_39" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+        </div>
+        <div class="row4">
+            <div id="_40" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_41" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_42" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_43" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_44" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_45" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_46" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_47" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_48" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_49" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_50" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_51" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+            <div id="_52" class="card"><img src="img/cards/blue_back.jpg" alt=""></div>
+        </div>
+    </div>
+
+    <!--show winner-->
+    <div class="winner"></div>
+
+        <!--button to switch the player-->
+        <button class="switchPlayer" disabled>Switch Player</button>
+
+        <!--score board-->
+        <div class="scoreBoard">
+            <div class="score1-div active">Player 1 : <span class="score1">0</span></div>
+            <div class="score2-div">Player 2 : <span class="score2">0</span></div>
+        </div>
+
+        <!--modal that pops up when two cards are matched-->
+        <div class="modal" tabindex="-1" role="dialog" id="matchedModal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Two cards matched!</h5>
+                      <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>-->
+                    </div>
+                    <div class="modal-body">
+                      <p>Nice memory! Wanna continue?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary">Continue</button>
+                      <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+                    </div>
+                  </div>
+                </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
